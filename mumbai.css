@@ -1,0 +1,128 @@
+#part1{
+    background-image: url("mumbai3.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    padding-bottom: 100px;
+    margin: 0%;
+    color: black;
+
+}
+.content1{
+    color: white;
+margin-top: 100px;
+border: 1px solid wheat;
+text-align: center;
+
+}
+.headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content2{
+    color: white;
+    margin-top: 100px;
+    border: 1px solid white;
+    margin-top: 10px;
+}
+#part2{
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+.activity-1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+#activity1-img{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-image: url("activity1.jpg");
+    background-size: cover;
+}
+#activity2-img{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    height: 100px;
+    background-image: url("activity2.jpg");
+    background-size: cover;
+}
+.activity-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#activity3-img{
+    border: 1px solid  black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-image: url("activity3.jpg");
+    background-size: cover;
+}
+.acitvity-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#part3{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#activity1-img:hover{
+    transform: scale(2);
+}
+#activity2-img:hover{
+    transform: scale(2);
+}
+#activity3-img:hover{
+    transform: scale(2);
+}
+.part5{
+    
+    background-color: rgb(242, 191, 114);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: auto;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+#profile{
+    width: 250px;
+    height: 300px;
+}   
+.part4{
+    width: 400px;
+    font-size: small;
+}
+body{
+    background-image: linear-gradient( 0.2deg,  rgba(252,220,115,1) -13.1%, rgba(252,194,115,1) 31.9%, rgba(241,84,84,1) 69.6% );
+}   
+#profile:hover{
+    transform: scale(2);
+}
+#footer{
+    text-align: center;
+}
+
+
+
+
